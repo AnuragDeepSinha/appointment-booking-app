@@ -32,17 +32,16 @@ A simple full-stack appointment booking app for a small clinic with patient and 
 
 Open terminal in your project folder (`E:\PROJECTS\appointment-app`) and run:
 
-# Initialize project (if not done)
-npm init -y
-
-# Install backend dependencies
+### Install backend dependencies
 npm install express sqlite3 cors jsonwebtoken bcryptjs
 
-# Install frontend dependencies
+
+### Install frontend dependencies
 npm install react react-dom
 npm install -D vite concurrently
 
-# Tailwind CSS setup
+
+### Tailwind CSS setup
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
