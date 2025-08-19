@@ -66,21 +66,24 @@ Start frontend:
 
 ## Postman / cURL Quick Test
 
-# Register new user
+### Register new user
 curl -X POST http://localhost:4000/api/register -H "Content-Type: application/json" -d '{"name":"Test","email":"patient@example.com","password":"Passw0rd!"}'
 
-# Login
+
+### Login
 curl -X POST http://localhost:4000/api/login -H "Content-Type: application/json" -d '{"email":"patient@example.com","password":"Passw0rd!"}'
 
-# Get slots
+
+### Get slots
 curl http://localhost:4000/api/slots
 
-# Book a slot
+
+### Book a slot
 curl -X POST http://localhost:4000/api/book -H "Content-Type: application/json" -d '{"slotId":1,"user":"patient@example.com"}'
 
-# Get my bookings
+### Get my bookings
 curl http://localhost:4000/api/my-bookings
 
-Edit
+
 npm run dev
 Open browser at http://localhost:5173 (or the port Vite shows)
