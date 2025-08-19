@@ -10,7 +10,6 @@ A simple full-stack appointment booking app for a small clinic with patient and 
 - **Backend:** Node.js + Express
 - **Database:** SQLite (in-memory/demo)
 - **Auth:** JWT-based
-- **Deployment:** (Fill with your choice, e.g., Vercel + Render)
 
 ---
 
