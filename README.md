@@ -28,11 +28,31 @@ A simple full-stack appointment booking app for a small clinic with patient and 
 
 ---
 
+## Install Dependencies
+
+Open terminal in your project folder (`E:\PROJECTS\appointment-app`) and run:
+
+# Initialize project (if not done)
+npm init -y
+
+# Install backend dependencies
+npm install express sqlite3 cors jsonwebtoken bcryptjs
+
+# Install frontend dependencies
+npm install react react-dom
+npm install -D vite concurrently
+
+# Tailwind CSS setup
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+---
+
 ## Run Locally
 
 1. Clone the repo:
 
-git clone https://github.com/your-username/appointment-app.git
+git clone https://github.com/AnuragDeepSinha/appointment-booking-app.git
 cd appointment-app
 Install dependencies:
 
